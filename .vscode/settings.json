@@ -1,0 +1,10 @@
+{
+    "powermode.combo.threshold": 1,
+    "powermode.combo.timeout": 5,
+    "powermode.explosions.customExplosions": [
+
+    ],
+    "powermode.explosions.customCss": {
+        
+    }
+}
