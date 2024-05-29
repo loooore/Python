@@ -17,4 +17,8 @@ for sexo, altura, peso in zip(dados['Sex'], dados['Height'], dados['Weight']):
 
 # Criando uma relação entre a altura e o peso
 plt.scatter(homem_altura, homem_peso)
+plt.xlabel('Altura')
+plt.ylabel('Peso')
+plt.title('Altura x Peso de Homens')
+plt.grid(True)
 plt.show()

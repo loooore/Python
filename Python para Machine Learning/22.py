@@ -3,7 +3,6 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 df = pd.read_csv('c:/Users/l50038499/Downloads/admission_dataset (1).csv')
-df
 y = df['Chance of Admit ']
 x = df.drop('Chance of Admit ', axis=1)
 
